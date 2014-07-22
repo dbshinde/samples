@@ -38,7 +38,7 @@
             %>
             <font size="2pt" style="font-weight: bold; float: right;padding-right: 70px;"
                   color="#E6E154">Welcome, <%=user.getUserName()%>! &nbsp;&nbsp;&nbsp;
-                | &nbsp;&nbsp;<a href="card.jsp">My Wish List</a>
+                | &nbsp;&nbsp;<a href="card.jsp">My Cart</a>
                 | &nbsp;&nbsp;<a href="logout.jsp">Log Out</a>
             </font>
             <%

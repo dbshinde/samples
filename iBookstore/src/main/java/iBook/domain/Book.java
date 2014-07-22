@@ -64,8 +64,11 @@ public class Book implements Serializable {
     private int publishDate;
     private Set<UserPayments2Books> userBooks;
     private Set<WishBook> wishListBooks;
+    private int pages;
 
-    @Id
+   
+
+	@Id
     @GeneratedValue(generator="increment")
     @GenericGenerator(name="increment", strategy = "increment")
     public int getId() {
@@ -170,6 +173,15 @@ public class Book implements Serializable {
         this.wishListBooks = wishListBooks;
     }
 
+    @Column(name = "pages")
+    public int getPages() {
+		return pages;
+	}
+
+	public void setPages(int pages) {
+		this.pages = pages;
+	}
+	
     @Override
     public int hashCode() {
         final int prime = 31;

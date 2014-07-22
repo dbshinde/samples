@@ -23,11 +23,11 @@
             if (cardPage.getParameter(CardPage.PARAM_ADDED) != null) {
                 if(cardPage.getParameter(CardPage.PARAM_ADDED).equals("true")) {
         %>
-        <h1>Your wish list filled in with one more book!</h1>
+        <h1>Book has been added to your cart !</h1>
         <%
         } else {
         %>
-        <h1>Your have already this book in your wish list!</h1>
+        <h1>Your have already this book in your cart!</h1>
         <%
                 }
             }

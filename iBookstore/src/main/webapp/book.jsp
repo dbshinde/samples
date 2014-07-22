@@ -39,7 +39,7 @@
         <ul>
             <li>By: <a href="#"><%=authors.toString()%></a></li>
             <li>Publication Date: <%=currentBook.getPublishDate()%></li>
-            <li>Pages: 498</li>
+            <li>Pages: <%=currentBook.getPages()%></li>
         </ul>
 
         <p><%=currentBook.getDescription()%></p>
