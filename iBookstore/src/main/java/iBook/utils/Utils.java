@@ -101,7 +101,7 @@ public final class Utils {
     public Session openTransaction() {
         Session session = getSession();
         session.beginTransaction();
-       System.out.println("test commit");
+       System.out.println("begin Transaction");
         return session;
     }
 
